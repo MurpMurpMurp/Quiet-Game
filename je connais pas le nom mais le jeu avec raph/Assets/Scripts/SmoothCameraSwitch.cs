@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraSwitchManager : MonoBehaviour
+public class SmoothCameraSwitch : MonoBehaviour
 {
     [Header("CharacterManager Script Reference")]
     [SerializeField] CharacterManager m_characterManager;
@@ -18,5 +20,4 @@ public class CameraSwitchManager : MonoBehaviour
             m_characterManager.m_camera = m_camera;
         }
     }
-
 }
